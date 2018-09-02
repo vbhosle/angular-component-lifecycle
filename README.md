@@ -1,4 +1,11 @@
-# MyFirstApp
+# Angular Component Lifecycle 
+
+# Get started
+1. User `git clone repourl` 
+2. Change current directory to project directory
+3. type `npm install`
+4. Fix any vulnerabilities with `npm audit fix`
+5. Type `ng serve` to host application at `http://localhost:4200`
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
