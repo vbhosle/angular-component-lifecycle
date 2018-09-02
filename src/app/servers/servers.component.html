@@ -2,7 +2,7 @@
 <!-- <button class="btn btn-primary" (click)="linuxServer.name='Changed!'">Change Linux</button>
 <app-server name="Linux" #linuxServer></app-server> -->
 
-<!-- OnChanges is NOT called -->
+<!-- OnChanges is called -->
 <button class="btn btn-primary" (click)="changeName()">Change Linux</button>
 <app-server [name]="linuxServer"></app-server>
 
