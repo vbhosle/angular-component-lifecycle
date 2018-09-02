@@ -1,10 +1,10 @@
 <!-- OnChanges is NOT called -->
-<button class="btn btn-primary" (click)="linuxServer.name='Changed!'">Change Linux</button>
-<app-server name="Linux" #linuxServer></app-server>
+<!-- <button class="btn btn-primary" (click)="linuxServer.name='Changed!'">Change Linux</button>
+<app-server name="Linux" #linuxServer></app-server> -->
 
 <!-- OnChanges is NOT called -->
-<!-- <button class="btn btn-primary" (click)="changeName()">Change Linux</button>
-<app-server [name]="'linuxServer'"></app-server> -->
+<button class="btn btn-primary" (click)="changeName()">Change Linux</button>
+<app-server [name]="linuxServer"></app-server>
 
 <!-- OnChanges is called -->
 <!-- <button class="btn btn-primary" (click)="changeName()">Change Linux</button>
